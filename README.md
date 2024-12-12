@@ -1,4 +1,4 @@
-# seattle_house_predict
+# Housing price perdiction on Seattle, WA
 an automated, ever-evolving machine learning pipeline powered by AWS Sagemaker + H2O
  
 * continuous data ingestion on upload (data versioning)
