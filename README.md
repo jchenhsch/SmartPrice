@@ -1,5 +1,5 @@
-# Housing price perdiction on Seattle, WA
-an automated, ever-evolving machine learning pipeline powered by AWS Sagemaker + H2O
+# SmartPrice: Automated housing price perdiction
+an automated, ever-evolving machine learning pipeline powered by AWS Sagemaker + H2O and trained on Seattle, WA housing price data
  
 * continuous data ingestion on upload (data versioning)
 * retrain automl pipeline when feature store updates
