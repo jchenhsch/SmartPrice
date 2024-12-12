@@ -1,5 +1,10 @@
 # seattle_house_predict
 an automated, ever-evolving machine learning pipeline powered by AWS Sagemaker + H2O
+ 
+* continuous data ingestion on upload (data versioning)
+* retrain automl pipeline when feature store updates
+* monitor data quality & drift with evidently.ai -> https://www.evidentlyai.com
+* model deployed on AWS sagemaker for quick inference (endpoint user)
 
 
 ## model pipeline
