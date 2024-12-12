@@ -1,4 +1,4 @@
-# SmartPrice: Automated housing price perdiction
+# SmartPrice: Automated housing price prediction
 an automated, ever-evolving machine learning pipeline powered by AWS Sagemaker + H2O and trained on Seattle, WA housing price data
  
 * continuous data ingestion on upload (data versioning)
