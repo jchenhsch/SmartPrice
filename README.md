@@ -5,6 +5,7 @@ an automated, ever-evolving machine learning pipeline powered by AWS Sagemaker +
 * retrain automl pipeline when feature store updates
 * monitor data quality & drift with evidently.ai -> https://www.evidentlyai.com
 * model deployed on AWS sagemaker for quick inference (endpoint user)
+* Step-wise backup on result bucket ready for fallback in case error 
 
 
 ## model pipeline
