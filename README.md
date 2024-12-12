@@ -16,7 +16,7 @@ an automated, ever-evolving machine learning pipeline powered by AWS Sagemaker +
 │   ├── auto_ml.ipynb --> auto_ml pipepline in jupyter notebook
 │   ├── feature-store.ipynb --> feature store building logic
 │   ├── lambda_function.py --> lambda function that save message to sqs which further triggers auto_ml pipeline
-│   └── test_sqs.py --> testing script for sqs
+│   └── test_sqs.py --> sqs trigger with automl pipeline
 ├── data
 │   └── housing_data_original.csv
 ├── features - **offline feature store logic
