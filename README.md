@@ -7,6 +7,8 @@ an automated, ever-evolving machine learning pipeline powered by AWS Sagemaker +
 
 
 ## directory
+<pre>
+```
 ├── LICENSE
 ├── README.md
 ├── code
@@ -107,3 +109,5 @@ an automated, ever-evolving machine learning pipeline powered by AWS Sagemaker +
 │   ├── monitoring_report_simu1_simu2.html
 │   └── monitoring_report_simu3poisoned.html
 └── sqs_setup.png
+```
+</pre>
