@@ -24,8 +24,10 @@ an automated, ever-evolving machine learning pipeline powered by AWS Sagemaker +
 │   ├── lambda_function.py --> lambda function that save message to sqs which further triggers auto_ml pipeline
 │   └── test_sqs.py --> sqs trigger with automl pipeline
 ├── data
-│   └── housing_data_original.csv
-├── features - **offline feature store logic
+│   ├── housing_data_original.csv
+│   ├── simulation2.csv --> streaming simulation mimicing the data flow
+│   └── simulation3_poison.csv --> poison simulation mimicing the data drift
+├── features - ** offline feature store logic **
 │   ├── simulation
 │   │   └── 637423203755
 │   │       └── sagemaker
@@ -107,10 +109,10 @@ an automated, ever-evolving machine learning pipeline powered by AWS Sagemaker +
 │                           │                   └── 20241212T025413Z_yAsO6K3WSwPhSqpx.parquet
 │                           └── housing-feature-group-test2024-12-12T03:02:34.509Z.txt
 ├── lambda_setup.png
-├── model
+├── model ** best model in tar for serving **
 │   └── h2o_best_model.tar
 ├── pipline_architecture.png
-├── report
+├── report ** evidently ai generated monitoring report **
 │   ├── monitoring_report_simu1.html
 │   ├── monitoring_report_simu1_simu2.html
 │   └── monitoring_report_simu3poisoned.html
